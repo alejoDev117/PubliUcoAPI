@@ -39,4 +39,3 @@ public final class DescripcionValidation implements Validation<String>{
 	}
 	
 
-}

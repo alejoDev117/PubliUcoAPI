@@ -74,9 +74,6 @@ public final class EstadoTipoRelacionInstitucionController {
 		
 		return new ResponseEntity<>(response,statusCode);
 		
-		
-		Response<EstadoTipoRelacionInstitucionDTO> response = new Response<>(lista,message);
-		return new ResponseEntity<>(lista,HttpStatus.OK);
 	}
 	
 	@GetMapping("/{id}")
